@@ -1,0 +1,31 @@
+==: Problem Statement :==
+    
+    
+1. Collect Audience reviews from "www.rottentomatoes.com" for the film: “The Lion
+King (2019)” with at least the following features.
+a. ReviewID
+b. Reviewer Name
+c. Review
+d. Rating
+e. Date-of-Review
+
+
+You are required to collect 3000 reviews only.
+You are free to collect any other attributes/features that you think helpful.
+
+2. Label the Review Sentiment:
+You must label the data based on the following condition on Rating:
+if ‘Rating’ > 3 then positive review else negative review – Create target attribute with
+the name: “sentiment” (binary class)
+“Drop the Rating attribute once the Target is derived. It should not be part of
+model building as independent attributes.”
+
+3. Evaluation Metric:
+F1-score for Negative reviews.
+
+==: Learnings :==
+1) Innovative Feature engineering for sentiment analysis 
+2) Dealing with class imabalance data for NLP
+
+** Data augmentation can be tried by pulling in similar content/movie reviews from imdb.com etc.
+But for this, we are showcasing what can be done with limited data availability.
